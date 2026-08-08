@@ -5,6 +5,7 @@ project:
   title: "meu primeiro chip"
   author: "lfp4335-hash"
   tiles: "1x1"
+  wokwi_id: 0
   hooks:
     pre_pinout: ""
     post_pinout: ""
