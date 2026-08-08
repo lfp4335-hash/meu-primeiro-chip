@@ -1,11 +1,39 @@
 ---
-# Configurações obrigatórias do Tiny Tapeout
 yaml_version: 6
 
 project:
   hooks:
     pre_pinout: ""
     post_pinout: ""
+
+pinout:
+  inputs:
+    - "ui_in[0]"
+    - "ui_in[1]"
+    - "ui_in[2]"
+    - "ui_in[3]"
+    - "ui_in[4]"
+    - "ui_in[5]"
+    - "ui_in[6]"
+    - "ui_in[7]"
+  outputs:
+    - "uo_out[0]"
+    - "uo_out[1]"
+    - "uo_out[2]"
+    - "uo_out[3]"
+    - "uo_out[4]"
+    - "uo_out[5]"
+    - "uo_out[6]"
+    - "uo_out[7]"
+  bidirectional:
+    - "uio[0]"
+    - "uio[1]"
+    - "uio[2]"
+    - "uio[3]"
+    - "uio[4]"
+    - "uio[5]"
+    - "uio[6]"
+    - "uio[7]"
 
 documentation:
   author: "lfp4335-hash"
