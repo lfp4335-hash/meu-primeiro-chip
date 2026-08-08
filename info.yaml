@@ -2,6 +2,7 @@
 yaml_version: 6
 
 project:
+  title: "meu primeiro chip"
   tiles: "1x1"
   hooks:
     pre_pinout: ""
@@ -9,32 +10,32 @@ project:
 
 pinout:
   inputs:
-    - "ui_in[0]"
-    - "ui_in[1]"
-    - "ui_in[2]"
-    - "ui_in[3]"
-    - "ui_in[4]"
-    - "ui_in[5]"
-    - "ui_in[6]"
-    - "ui_in[7]"
+    - "ui_in"
+    - "ui_in"
+    - "ui_in"
+    - "ui_in"
+    - "ui_in"
+    - "ui_in"
+    - "ui_in"
+    - "ui_in"
   outputs:
-    - "uo_out[0]"
-    - "uo_out[1]"
-    - "uo_out[2]"
-    - "uo_out[3]"
-    - "uo_out[4]"
-    - "uo_out[5]"
-    - "uo_out[6]"
-    - "uo_out[7]"
+    - "uo_out"
+    - "uo_out"
+    - "uo_out"
+    - "uo_out"
+    - "uo_out"
+    - "uo_out"
+    - "uo_out"
+    - "uo_out"
   bidirectional:
-    - "uio_oe[0]"
-    - "uio_oe[1]"
-    - "uio_oe[2]"
-    - "uio_oe[3]"
-    - "uio_oe[4]"
-    - "uio_oe[5]"
-    - "uio_oe[6]"
-    - "uio_oe[7]"
+    - "uio_oe"
+    - "uio_oe"
+    - "uio_oe"
+    - "uio_oe"
+    - "uio_oe"
+    - "uio_oe"
+    - "uio_oe"
+    - "uio_oe"
 
 documentation:
   author: "lfp4335-hash"
