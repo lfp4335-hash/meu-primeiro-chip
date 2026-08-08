@@ -1,2 +1,10 @@
-# Ficheiro inicial de teste
 ---
+# Configurações do Tiny Tapeout
+documentation:
+  author: "O teu nome"
+  title: "meu primeiro chip"
+  language: "Wokwi"
+  description: "Testando blocos logicos"
+
+# Esta é a linha que o erro estava a pedir:
+yaml_version: 6
