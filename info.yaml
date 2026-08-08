@@ -3,6 +3,7 @@ yaml_version: 6
 
 project:
   title: "meu primeiro chip"
+  author: "lfp4335-hash"
   tiles: "1x1"
   hooks:
     pre_pinout: ""
