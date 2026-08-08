@@ -1,10 +1,14 @@
 ---
-# Configurações do Tiny Tapeout
+# Configurações obrigatórias do Tiny Tapeout
+yaml_version: 6
+
+project:
+  hooks:
+    pre_pinout: ""
+    post_pinout: ""
+
 documentation:
-  author: "O teu nome"
+  author: "lfp4335-hash"
   title: "meu primeiro chip"
   language: "Wokwi"
   description: "Testando blocos logicos"
-
-# Esta é a linha que o erro estava a pedir:
-yaml_version: 6
